@@ -1,0 +1,100 @@
+\hypertarget{classExercises}{}\section{Класс Exercises}
+\label{classExercises}\index{Exercises@{Exercises}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classExercises_a53040808f03cf242e1ef0d8fb9b717bc}{get\+Exercises\+List} ()
+\item 
+static \hyperlink{classExercises_aaab0c1f9284e83573b3871073e3dda89}{get\+Exercise\+Title} (\$id)
+\item 
+static \hyperlink{classExercises_a3c72e47117bc8bf1ecf59ccd403bf4dd}{create\+Exercise} (\$new\+Exercise\+Name, \$new\+Exercise\+Category)
+\item 
+static \hyperlink{classExercises_adfdfca2f7efb2ef4e84f610c8fe45683}{show\+Next\+Exercise\+Number} ()
+\item 
+static \hyperlink{classExercises_a1217051d300917aacfce5c95b9a7141b}{get\+Exercise\+Category\+List} ()
+\item 
+static \hyperlink{classExercises_aa9dfece8a8ae885921d2aa38380ff38d}{delete\+Exercise} (\$exercise\+Id)
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Класс \hyperlink{classExercises}{Exercises} -\/ модель для работы с упражнениями 
+
+\subsection{Методы}
+\index{Exercises@{Exercises}!create\+Exercise@{create\+Exercise}}
+\index{create\+Exercise@{create\+Exercise}!Exercises@{Exercises}}
+\subsubsection[{\texorpdfstring{create\+Exercise(\$new\+Exercise\+Name, \$new\+Exercise\+Category)}{createExercise($newExerciseName, $newExerciseCategory)}}]{\setlength{\rightskip}{0pt plus 5cm}static Exercises\+::create\+Exercise (
+\begin{DoxyParamCaption}
+\item[{}]{\$new\+Exercise\+Name, }
+\item[{}]{\$new\+Exercise\+Category}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classExercises_a3c72e47117bc8bf1ecf59ccd403bf4dd}{}\label{classExercises_a3c72e47117bc8bf1ecf59ccd403bf4dd}
+Создает новое упражнение 
+\begin{DoxyParams}[1]{Аргументы}
+string & {\em \$new\+Exercise\+Name} & \\
+\hline
+string & {\em \$new\+Exercise\+Category} & \\
+\hline
+\end{DoxyParams}
+\index{Exercises@{Exercises}!delete\+Exercise@{delete\+Exercise}}
+\index{delete\+Exercise@{delete\+Exercise}!Exercises@{Exercises}}
+\subsubsection[{\texorpdfstring{delete\+Exercise(\$exercise\+Id)}{deleteExercise($exerciseId)}}]{\setlength{\rightskip}{0pt plus 5cm}static Exercises\+::delete\+Exercise (
+\begin{DoxyParamCaption}
+\item[{}]{\$exercise\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classExercises_aa9dfece8a8ae885921d2aa38380ff38d}{}\label{classExercises_aa9dfece8a8ae885921d2aa38380ff38d}
+Удаляет упражнение 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$exercise\+Id} & \\
+\hline
+\end{DoxyParams}
+\index{Exercises@{Exercises}!get\+Exercise\+Category\+List@{get\+Exercise\+Category\+List}}
+\index{get\+Exercise\+Category\+List@{get\+Exercise\+Category\+List}!Exercises@{Exercises}}
+\subsubsection[{\texorpdfstring{get\+Exercise\+Category\+List()}{getExerciseCategoryList()}}]{\setlength{\rightskip}{0pt plus 5cm}static Exercises\+::get\+Exercise\+Category\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classExercises_a1217051d300917aacfce5c95b9a7141b}{}\label{classExercises_a1217051d300917aacfce5c95b9a7141b}
+Возвращает имена категорий упражнений \begin{DoxyReturn}{Возвращает}
+array 
+\end{DoxyReturn}
+\index{Exercises@{Exercises}!get\+Exercises\+List@{get\+Exercises\+List}}
+\index{get\+Exercises\+List@{get\+Exercises\+List}!Exercises@{Exercises}}
+\subsubsection[{\texorpdfstring{get\+Exercises\+List()}{getExercisesList()}}]{\setlength{\rightskip}{0pt plus 5cm}static Exercises\+::get\+Exercises\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classExercises_a53040808f03cf242e1ef0d8fb9b717bc}{}\label{classExercises_a53040808f03cf242e1ef0d8fb9b717bc}
+Возвращает список заданий \begin{DoxyReturn}{Возвращает}
+array \$\+Exercises\+List 
+\end{DoxyReturn}
+\index{Exercises@{Exercises}!get\+Exercise\+Title@{get\+Exercise\+Title}}
+\index{get\+Exercise\+Title@{get\+Exercise\+Title}!Exercises@{Exercises}}
+\subsubsection[{\texorpdfstring{get\+Exercise\+Title(\$id)}{getExerciseTitle($id)}}]{\setlength{\rightskip}{0pt plus 5cm}static Exercises\+::get\+Exercise\+Title (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classExercises_aaab0c1f9284e83573b3871073e3dda89}{}\label{classExercises_aaab0c1f9284e83573b3871073e3dda89}
+Возвращает название задания по id 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+string 
+\end{DoxyReturn}
+\index{Exercises@{Exercises}!show\+Next\+Exercise\+Number@{show\+Next\+Exercise\+Number}}
+\index{show\+Next\+Exercise\+Number@{show\+Next\+Exercise\+Number}!Exercises@{Exercises}}
+\subsubsection[{\texorpdfstring{show\+Next\+Exercise\+Number()}{showNextExerciseNumber()}}]{\setlength{\rightskip}{0pt plus 5cm}static Exercises\+::show\+Next\+Exercise\+Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classExercises_adfdfca2f7efb2ef4e84f610c8fe45683}{}\label{classExercises_adfdfca2f7efb2ef4e84f610c8fe45683}
+Возвращает порядковый номер следующего теста \begin{DoxyReturn}{Возвращает}
+integer \$next\+Exercise\+Number 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+models/Exercises.\+php\end{DoxyCompactItemize}

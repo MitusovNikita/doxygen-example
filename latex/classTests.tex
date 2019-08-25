@@ -1,0 +1,172 @@
+\hypertarget{classTests}{}\section{Класс Tests}
+\label{classTests}\index{Tests@{Tests}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classTests_a58718cca1a41aad3d387b3d2dfe13db5}{get\+Tests\+List\+By\+Id} (\$id)
+\item 
+static \hyperlink{classTests_acde72a5417f95e2d3988cc100dce5565}{show\+Next\+Test\+Number} (\$id)
+\item 
+static \hyperlink{classTests_ab65569bad267b78f48d6e3b8f55a5790}{create\+Test} (\$new\+Test\+Attributes\+Array, \$id)
+\item 
+static \hyperlink{classTests_aa8948ae45ba690492267a363b154f27a}{show\+Right\+Answers\+Count} (\$id, \$answers\+Array)
+\item 
+static \hyperlink{classTests_ab55fb00a00c823f9e32ff137b145b993}{show\+Answers\+Count} (\$id)
+\item 
+static \hyperlink{classTests_a35ce304f555cb1d7e2a15deca43be444}{show\+Right\+Answers\+Array} (\$id, \$answers\+Array)
+\item 
+static \hyperlink{classTests_aa96ce8b0f07a2f93e6440d07f60aac18}{delete\+Test} (\$test\+Id)
+\item 
+static \hyperlink{classTests_ac39dccfaa4c72e4cd4797492726a8ed4}{edit\+Test\+View} (\$test\+Id)
+\item 
+static \hyperlink{classTests_a51bde5ab01ece0ad78754806e30c5924}{edit\+Test\+Save} (\$test\+Id, \$test\+Edit\+Save\+Array)
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Класс \hyperlink{classTests}{Tests} -\/ модель для работы с заданиями 
+
+\subsection{Методы}
+\index{Tests@{Tests}!create\+Test@{create\+Test}}
+\index{create\+Test@{create\+Test}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{create\+Test(\$new\+Test\+Attributes\+Array, \$id)}{createTest($newTestAttributesArray, $id)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::create\+Test (
+\begin{DoxyParamCaption}
+\item[{}]{\$new\+Test\+Attributes\+Array, }
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_ab65569bad267b78f48d6e3b8f55a5790}{}\label{classTests_ab65569bad267b78f48d6e3b8f55a5790}
+Создает новое задание 
+\begin{DoxyParams}[1]{Аргументы}
+array & {\em \$new\+Test\+Attributes\+Array} & \\
+\hline
+integer & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\index{Tests@{Tests}!delete\+Test@{delete\+Test}}
+\index{delete\+Test@{delete\+Test}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{delete\+Test(\$test\+Id)}{deleteTest($testId)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::delete\+Test (
+\begin{DoxyParamCaption}
+\item[{}]{\$test\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_aa96ce8b0f07a2f93e6440d07f60aac18}{}\label{classTests_aa96ce8b0f07a2f93e6440d07f60aac18}
+Удаляет задание 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$test\+Id} & \\
+\hline
+\end{DoxyParams}
+\index{Tests@{Tests}!edit\+Test\+Save@{edit\+Test\+Save}}
+\index{edit\+Test\+Save@{edit\+Test\+Save}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{edit\+Test\+Save(\$test\+Id, \$test\+Edit\+Save\+Array)}{editTestSave($testId, $testEditSaveArray)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::edit\+Test\+Save (
+\begin{DoxyParamCaption}
+\item[{}]{\$test\+Id, }
+\item[{}]{\$test\+Edit\+Save\+Array}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_a51bde5ab01ece0ad78754806e30c5924}{}\label{classTests_a51bde5ab01ece0ad78754806e30c5924}
+Сохранение отредактированного теста 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$test\+Id} & \\
+\hline
+integer & {\em \$test\+Edit\+Save\+Array} & \\
+\hline
+\end{DoxyParams}
+\index{Tests@{Tests}!edit\+Test\+View@{edit\+Test\+View}}
+\index{edit\+Test\+View@{edit\+Test\+View}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{edit\+Test\+View(\$test\+Id)}{editTestView($testId)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::edit\+Test\+View (
+\begin{DoxyParamCaption}
+\item[{}]{\$test\+Id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_ac39dccfaa4c72e4cd4797492726a8ed4}{}\label{classTests_ac39dccfaa4c72e4cd4797492726a8ed4}
+Вывод теста для редактирования 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$test\+Id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+array \$edit\+Test\+View\+Array 
+\end{DoxyReturn}
+\index{Tests@{Tests}!get\+Tests\+List\+By\+Id@{get\+Tests\+List\+By\+Id}}
+\index{get\+Tests\+List\+By\+Id@{get\+Tests\+List\+By\+Id}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{get\+Tests\+List\+By\+Id(\$id)}{getTestsListById($id)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::get\+Tests\+List\+By\+Id (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_a58718cca1a41aad3d387b3d2dfe13db5}{}\label{classTests_a58718cca1a41aad3d387b3d2dfe13db5}
+Возвращает атрибуты заданий по id упражнения 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+array 
+\end{DoxyReturn}
+\index{Tests@{Tests}!show\+Answers\+Count@{show\+Answers\+Count}}
+\index{show\+Answers\+Count@{show\+Answers\+Count}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{show\+Answers\+Count(\$id)}{showAnswersCount($id)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::show\+Answers\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_ab55fb00a00c823f9e32ff137b145b993}{}\label{classTests_ab55fb00a00c823f9e32ff137b145b993}
+Возвращает общее кол-\/во ответов задания 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+integer \$answers\+Count 
+\end{DoxyReturn}
+\index{Tests@{Tests}!show\+Next\+Test\+Number@{show\+Next\+Test\+Number}}
+\index{show\+Next\+Test\+Number@{show\+Next\+Test\+Number}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{show\+Next\+Test\+Number(\$id)}{showNextTestNumber($id)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::show\+Next\+Test\+Number (
+\begin{DoxyParamCaption}
+\item[{}]{\$id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_acde72a5417f95e2d3988cc100dce5565}{}\label{classTests_acde72a5417f95e2d3988cc100dce5565}
+Возвращает порядковый номер следующего задания 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+integer \$next\+Test\+Number 
+\end{DoxyReturn}
+\index{Tests@{Tests}!show\+Right\+Answers\+Array@{show\+Right\+Answers\+Array}}
+\index{show\+Right\+Answers\+Array@{show\+Right\+Answers\+Array}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{show\+Right\+Answers\+Array(\$id, \$answers\+Array)}{showRightAnswersArray($id, $answersArray)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::show\+Right\+Answers\+Array (
+\begin{DoxyParamCaption}
+\item[{}]{\$id, }
+\item[{}]{\$answers\+Array}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_a35ce304f555cb1d7e2a15deca43be444}{}\label{classTests_a35ce304f555cb1d7e2a15deca43be444}
+Возвращает массив с правильными ответами 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$id} & \\
+\hline
+array & {\em \$answers\+Array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+integer \$answers\+Count 
+\end{DoxyReturn}
+\index{Tests@{Tests}!show\+Right\+Answers\+Count@{show\+Right\+Answers\+Count}}
+\index{show\+Right\+Answers\+Count@{show\+Right\+Answers\+Count}!Tests@{Tests}}
+\subsubsection[{\texorpdfstring{show\+Right\+Answers\+Count(\$id, \$answers\+Array)}{showRightAnswersCount($id, $answersArray)}}]{\setlength{\rightskip}{0pt plus 5cm}static Tests\+::show\+Right\+Answers\+Count (
+\begin{DoxyParamCaption}
+\item[{}]{\$id, }
+\item[{}]{\$answers\+Array}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classTests_aa8948ae45ba690492267a363b154f27a}{}\label{classTests_aa8948ae45ba690492267a363b154f27a}
+Возвращает кол-\/во правильных ответов задания 
+\begin{DoxyParams}[1]{Аргументы}
+integer & {\em \$id} & \\
+\hline
+array & {\em \$answers\+Array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+integer \$right\+Answers\+Count 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+models/Tests.\+php\end{DoxyCompactItemize}
